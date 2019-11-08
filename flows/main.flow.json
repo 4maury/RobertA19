@@ -52,38 +52,12 @@
       "next": [
         {
           "condition": "true",
-          "node": "node-15c9"
+          "node": "END"
         }
       ],
       "onEnter": [
         "say #!builtin_text-C4vjMg"
       ],
-      "onReceive": null,
-      "type": "standard"
-    },
-    {
-      "id": "5116855b17",
-      "name": "node-15c9",
-      "next": [
-        {
-          "condition": "true",
-          "node": "node-4dc0"
-        }
-      ],
-      "onEnter": [],
-      "onReceive": null,
-      "type": "standard"
-    },
-    {
-      "id": "d20ae1922f",
-      "name": "node-4dc0",
-      "next": [
-        {
-          "condition": "true",
-          "node": "node-15c9"
-        }
-      ],
-      "onEnter": [],
       "onReceive": null,
       "type": "standard"
     }
