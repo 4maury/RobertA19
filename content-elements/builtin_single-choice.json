@@ -1,0 +1,26 @@
+[
+  {
+    "id": "builtin_single-choice-aYWM93",
+    "formData": {
+      "text$en": "Select one option or write any other one.",
+      "choices$en": [
+        {
+          "title": "I want to subscribe an insurance.",
+          "value": "insurance"
+        },
+        {
+          "title": "I want to take out a loan.",
+          "value": "loan"
+        },
+        {
+          "title": "I have questions on my credit card.",
+          "value": "credit_card"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-10-04T09:38:12.904Z",
+    "modifiedOn": "2019-10-04T11:26:58.348Z"
+  }
+]

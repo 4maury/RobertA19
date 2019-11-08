@@ -1,0 +1,91 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-668f9c"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "skill-668f9c",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-668f9c",
+      "flow": "skills/choice-668f9c.flow.json",
+      "next": [
+        {
+          "condition": "temp['skill-choice-ret'] == \"insurance\"",
+          "node": "Bank_info.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"loan\"",
+          "node": "Bank_info.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"credit_card\"",
+          "node": "Bank_info.flow.json"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "node-c103"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "f767ab8c3e",
+      "name": "node-c103",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-15c9"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-C4vjMg"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5116855b17",
+      "name": "node-15c9",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-4dc0"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d20ae1922f",
+      "name": "node-4dc0",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-15c9"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

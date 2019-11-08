@@ -1,0 +1,47 @@
+{
+  "id": "0xbmxyusvu_tell_me_a_joke",
+  "data": {
+    "questions": {
+      "en": [
+        "Tell me a joke",
+        "Can you tell me a joke?",
+        "I want to hear a joke",
+        "make me laugh",
+        "tell me something funny",
+        "joke",
+        "show me your humour",
+        "Be funny now!",
+        "Can you say something amusing?",
+        "Do you have good jokes to share?"
+      ],
+      "fr": [
+        "Raconte moi une blaque",
+        "Dit moi une joke",
+        "Dit un truc drôle",
+        "Raconte moi ta meilleure histoire comique",
+        "Une blague svp",
+        "Fait moi rire!",
+        "Es-tu capable de me faire rire?",
+        "je veux une blague maintenant",
+        "Je veux entendre un anecdote humoristique",
+        "Soit drole !"
+      ]
+    },
+    "answers": {
+      "en": [
+        "It is the story of 2 ices cubes in the desert and.... nevermind, they're gone.",
+        "A 0 and a 8 are meeting together. \"Oh !\" says the 0, \"you put your belt today !\"",
+        "There are 10 categories of people in the world. Those who understand binary, and the others.",
+        "I can't understand if this one is a joke, but it makes many humans laugh so here it is : \"I farted.\" "
+      ],
+      "fr": [
+        "C'est l'histoire de deux glaçons dans le desert et... laisse tomber, ils ne sont plus là."
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

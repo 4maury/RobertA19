@@ -1,0 +1,47 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "avatarUrl": "",
+    "coverPictureUrl": ""
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "Small Talk",
+  "active": true,
+  "version": "12.1.4",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_card",
+      "builtin_carousel",
+      "builtin_image",
+      "builtin_single-choice",
+      "builtin_text"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "roberta19",
+  "name": "Robert2.0 (roberta19)",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2019-11-05T23:12:26.714Z",
+      "promoted_by": "system"
+    }
+  }
+}

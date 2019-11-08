@@ -1,0 +1,107 @@
+[
+  {
+    "id": "builtin_text-iVBzXn",
+    "formData": {
+      "text$en": "LA ON EST SORTI DES CHOIX",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-01T18:28:03.566Z",
+    "modifiedOn": "2019-10-04T12:03:30.096Z"
+  },
+  {
+    "id": "builtin_text-error",
+    "formData": {
+      "text$en": "😯 Oops! We've got a problem. Please try something else while we're fixing it 🔨",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-09-03T18:58:10.702Z",
+    "modifiedOn": "2019-10-04T09:15:29.709Z"
+  },
+  {
+    "id": "builtin_text-o0Rot5",
+    "formData": {
+      "text$en": "Hi, I'm Robert, your personnal assistant. What do you want to know ?",
+      "variations$en": [
+        "Hello, I'm Robert, your assistant. Do you have any question ?",
+        "Hi ! I'm Robert, here to help. ",
+        "Hello. What question do you want to ask to your faithful Robert?",
+        "Hi, please ask any question to your devoted Robert !"
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-10-04T09:25:23.589Z",
+    "modifiedOn": "2019-10-04T10:52:08.725Z"
+  },
+  {
+    "id": "builtin_text-Hdf1-b",
+    "formData": {
+      "text$en": "Well... you know what ? I'm tired of all this banking stuff. Do you have other questions ?",
+      "variations$en": [
+        "Again... I tired of repeating things ! Do you have questions on other topics ?"
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-10-04T09:46:02.165Z",
+    "modifiedOn": "2019-10-04T09:46:02.165Z"
+  },
+  {
+    "id": "builtin_text-j_aJ3m",
+    "formData": {
+      "text$en": "Ta gueule. Cordialement.",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-10-04T10:47:53.631Z",
+    "modifiedOn": "2019-10-04T10:47:53.631Z"
+  },
+  {
+    "id": "builtin_text-fLoKo9",
+    "formData": {
+      "text$en": "test_stop",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-10-04T11:57:07.211Z",
+    "modifiedOn": "2019-10-04T11:57:07.211Z"
+  },
+  {
+    "id": "builtin_text-8HUuK0",
+    "formData": {
+      "text$en": "Who cares about that ?",
+      "variations$en": [
+        "Can you hear what you're saying... You can't expect me to answer this kind of question.",
+        "Is that what you really want to know ?",
+        "Does it matters to you ?"
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-11-06T09:03:13.016Z",
+    "modifiedOn": "2019-11-06T09:03:13.016Z"
+  },
+  {
+    "id": "builtin_text-C4vjMg",
+    "formData": {
+      "text$en": "I don't get it.",
+      "variations$en": [
+        "Sorry, this is all Greek to me.",
+        "It's like Chinese arithmetics.",
+        "Sorry, I could answer your question but I'd rather talk about the superiority of the robots.",
+        "Can you hear what you're saying... You can't expect me to answer this.",
+        "Who cares about that ?",
+        "Is that really what you want to know ?",
+        "Does is really matters to you ?",
+        "Do you mind if we talk about robotics ?",
+        "Do you minf if we talk about our relationship ?"
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-11-06T09:05:16.846Z",
+    "modifiedOn": "2019-11-06T09:12:05.936Z"
+  }
+]

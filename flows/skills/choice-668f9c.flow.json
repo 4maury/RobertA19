@@ -1,0 +1,88 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "contentId": "builtin_single-choice-aYWM93",
+    "invalidContentId": "",
+    "keywords": {
+      "insurance": [
+        "insurance",
+        "I want to subscribe an insurance."
+      ],
+      "loan": [
+        "loan",
+        "I want to take out a loan."
+      ],
+      "credit_card": [
+        "credit_card"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-aYWM93 {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "946970"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"contentId\":\"builtin_single-choice-aYWM93\",\"invalidContentId\":\"\",\"keywords\":{\"insurance\":[\"insurance\",\"I want to subscribe an insurance.\"],\"loan\":[\"loan\",\"I want to take out a loan.\"],\"credit_card\":[\"credit_card\"]},\"config\":{\"nbMaxRetries\":3}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "onEnter": [],
+      "id": "861566"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count']) >= Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "512103"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "677946"
+    }
+  ]
+}
